@@ -1,0 +1,12 @@
+{
+    "name": "Solana Speedrun",
+    "image": "mcartoixa/solana-anchor:latest",
+    "features": {},
+    "customizations": {
+      "vscode": {
+        "extensions": ["rust-lang.rust-analyzer", "esbenp.prettier-vscode"]
+      }
+    },
+    "postCreateCommand": "solana --version && anchor --version"
+  }
+  
